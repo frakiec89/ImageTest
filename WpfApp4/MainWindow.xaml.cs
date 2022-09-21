@@ -98,7 +98,7 @@ namespace WpfApp4
         private void btAdd_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog(); // диалог
-            openFile.Filter = "png|*.png|jpg|.*jpg|jpeg|.*jpeg"; // фильтр  
+            openFile.Filter = "png|*.png|jpg|*.jpg|*.jpeg|*.jpeg"; // фильтр  
             openFile.Title = "Добавить  новую картинку";
             openFile.Multiselect = false; // можно  только  одну  картинку  выбрать 
 
