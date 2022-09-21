@@ -11,8 +11,7 @@
         <StackPanel>
 
             <Button x:Name="btAdd" Content="Новая картинка" Click="btAdd_Click" />
-            <Button x:Name="btRandom" Content="случайная картинка" Click="btRandom_Click" />
-
+          
             <ComboBox 
                 Margin="10" Padding="5" HorizontalAlignment="Left"
                 Name="cbSelectImage" MinWidth="100"
